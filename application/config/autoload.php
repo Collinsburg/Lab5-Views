@@ -133,3 +133,6 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 $autoload['model'] = array('app', 'tasks');
+
+//Added this
+$autoload['libraries'] = array('parser', 'parsedown','session');
