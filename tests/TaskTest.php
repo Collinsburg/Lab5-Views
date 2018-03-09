@@ -13,10 +13,15 @@ use PHPUnit\Framework\TestCase;
  * @author SQLWindows
  */
 class TaskTest extends TestCase {
-    //put your code here
+    
     function setUp() {
         $this->CI = &get_instance();
         $this->CI->load->model('task');
-        $this->bowl = new Task();
+        $this->task = new Task();
+        $this->task->desc = 'This is a test';
+    }
+    
+    function testSetup() {
+        $this->assertEquals('This is a test', $this->task->desc);
     }
 }
