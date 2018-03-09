@@ -13,3 +13,5 @@ cody - Added the clickable boxes on maintenance
 cody - added a task maintenance button
 cody - added "polish"
 cody - added unit tests
+sam - added test list cases
+sam - added travis
