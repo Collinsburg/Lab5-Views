@@ -15,3 +15,5 @@ cody - added "polish"
 cody - added unit tests
 sam - added test list cases
 sam - added travis
+sam - created xml file
+sam - changed todo list to use xml instead of csv
