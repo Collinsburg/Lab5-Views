@@ -130,8 +130,16 @@ class Memory_Model extends Entity implements DataMapper
 	{
 		$names = $this->_fields;
 		$object = new StdClass;
-		foreach ($names as $name)
-			$object->$name = "";
+//		foreach ($names as $name)
+//			$object->$name = "";
+                $object->id = "";
+                $object->task = "";
+                $object->priority = "";
+                $object->size = "";
+                $object->group = "";
+                $object->deadline = "";
+                $object->status = "";
+                $object->flag = "";
 		return $object;
 	}
 
