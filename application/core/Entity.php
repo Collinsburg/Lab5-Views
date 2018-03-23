@@ -26,7 +26,7 @@ class Entity extends CI_Model {
         return $this;
     }
 
-    public function __get($key) {
-        return $this->$key;
-    }
+//    public function __get($key) {
+//        return $this->$key;
+//    }
 }
